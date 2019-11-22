@@ -46,3 +46,5 @@ Universidad de Ibagué Programa de Electrónica Asignatura: Electrónica Digital
 - [Santiago Cortes](mailto:2420171013@estudiantesunibague.edu.co)
 - [Valentina Gomez](mailto:2420171072@estudiantesunibague.edu.co)
 - [Harold F Murcia](http://haroldmurcia.com/) - Tutor
+
+[VIDEO RUTAMIGAPP](https://youtu.be/OZHWk2s4im8)
