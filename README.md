@@ -38,7 +38,7 @@ In this repository you can find:
 2.  Download the folder called rutamigapp, there you can find the source code, templates, and html's codes.
 
 # How to run
-Now, open terminal on ubuntu with command ctr+alt+t, go to the folder rutamigapp, for example, if the folder is on downloads, you have to go there in terminal with command "cd Download/rutamigapp", and then your are on the folder to run the source python code called main.py, to run this write on terminal: python main.py.
+Now, open terminal on ubuntu with command ctr+alt+t, go to the folder rutamigapp, for example, if the folder is on downloads, you have to go there in terminal with command "cd Download/src", and then your are on the folder to run the source python code called main.py, to run this write on terminal: python main.py.
 
 # Authors
 Universidad de Ibagué Programa de Electrónica Asignatura: Electrónica Digital III A2019
