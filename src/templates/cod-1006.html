@@ -1,0 +1,32 @@
+{% extends "layout3.html" %}
+{% block content %}
+<table class="table table-light">
+  <thead>
+    <tr>
+      <th scope="col"><center>Código</center></th>
+      <th scope="col"><center>Nombre</center></th>
+      <th scope="col"><center>Dirección</center></th>
+      <th scope="col"><center>Correo</center></th>
+      <th scope="col"><center>Acudiente</center></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"><center>1005</center></th>
+      <td><center>Santiago Cortes</center></td>
+      <td><center>Club Residencial Multicentro</center></td>
+      <td><center>2420171013@estudiantesunibague.edu.co</center></td>
+      <td><center>Yasmin Cabrera</center></td>
+    <tr>
+      <th></th>
+      <td colspan="4"><iframe src="https://www.google.com/maps/embed?pb=!4v1572461617274!6m8!1m7!1s6bph4nbaPfxCb3H7Kui73A!2m2!1d4.439989392508884!2d-75.20200491327488!3f166.7919749327853!4f4.5086474183834895!5f0.7820865974627469" width="700" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><center><a class="btn btn-primary" href='/ingresovuelta/1005'>Ingreso</a> <span class="sr-only">(current)</span><center></td>
+      <td><a class="btn btn-danger" href='/ausentevuelta/1005'>Ausente</a> <span class="sr-only">(current)</span><td>
+      <td><center><a class="btn btn-warning" href='/vuelta/1007'>Siguiente</a> <span class="sr-only">(current)</span></td>
+    </tr>
+  </tbody>
+</table>
+{% endblock %}

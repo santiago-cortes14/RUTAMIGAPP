@@ -1,0 +1,32 @@
+{% extends "layout3.html" %}
+{% block content %}
+<table class="table table-light">
+  <thead>
+    <tr>
+      <th scope="col"><center>Código</center></th>
+      <th scope="col"><center>Nombre</center></th>
+      <th scope="col"><center>Dirección</center></th>
+      <th scope="col"><center>Correo</center></th>
+      <th scope="col"><center>Acudiente</center></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"><center>1001</center></th>
+      <td><center>Felipe Osorio</center></td>
+      <td><center>Cl. 51 #7b-2 a 7b-80</center></td>
+      <td><center>2420171013@estudiantesunibague.edu.co</center></td>
+      <td><center>Kevin Osorio</center></td>
+    <tr>
+      <th></th>
+      <td colspan="4"><iframe src="https://www.google.com/maps/embed?pb=!4v1573240392955!6m8!1m7!1sz0eBtJ0yp2XTFnAmV77RxA!2m2!1d4.438802091564869!2d-75.2065074859695!3f67.86728025957883!4f2.7888674330755805!5f0.7820865974627469" width="700" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><center><a class="btn btn-primary" href='/ingresovuelta/1001'>Ingreso</a> <span class="sr-only">(current)</span><center></td>
+      <td><a class="btn btn-danger" href='/ausentevuelta/1001'>Ausente</a> <span class="sr-only">(current)</span></a><td>
+      <td><center><a class="btn btn-warning" href='/principalvuelta'>Siguiente</a> <span class="sr-only">(current)</span></td>
+    </tr>
+  </tbody>
+</table>
+{% endblock %}

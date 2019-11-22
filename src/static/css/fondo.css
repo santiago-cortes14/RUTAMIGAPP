@@ -1,0 +1,22 @@
+body {
+ background-image: url('tren.jpg');
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+}
+
+@media screen and (max-width: 800px){
+  .layout{
+    width:100%
+  }
+  .layout2{
+    width:100%
+  }
+  .layout3{
+    width:100%
+  }
+}
+.botonimagen{
+  background-image:url(rut.jpg);
+  background-size: cover;
+}

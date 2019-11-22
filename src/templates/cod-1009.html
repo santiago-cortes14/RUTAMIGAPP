@@ -1,0 +1,32 @@
+{% extends "layout3.html" %}
+{% block content %}
+<table class="table table-light">
+  <thead>
+    <tr>
+      <th scope="col"><center>Código</center></th>
+      <th scope="col"><center>Nombre</center></th>
+      <th scope="col"><center>Dirección</center></th>
+      <th scope="col"><center>Correo</center></th>
+      <th scope="col"><center>Acudiente</center></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"><center>1002</center></th>
+      <td><center>Luisa Gutierrez</center></td>
+      <td><center>Calle 54 Carrera 7</center></td>
+      <td><center>2420171072@estudiantesunibague.edu.co</center></td>
+      <td><center>Maria Diaz</center></td>
+    <tr>
+      <th></th>
+      <td colspan="4"><iframe src="https://www.google.com/maps/embed?pb=!4v1573240435280!6m8!1m7!1swd7opH62kcO-ONFXBfOdlQ!2m2!1d4.439419818360444!2d-75.20523093102591!3f80.28935235779124!4f-2.6592883939741796!5f0.7820865974627469" width="700" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><center><a class="btn btn-primary" href='/ingresovuelta/1002'>Ingreso</a> <span class="sr-only">(current)</span><center></td>
+      <td><a class="btn btn-danger" href='/ausentevuelta/1002'>Ausente</a> <span class="sr-only">(current)</span></a><td>
+      <td><center><a class="btn btn-warning" href='/vuelta/1010'>Siguiente</a> <span class="sr-only">(current)</span></td>
+    </tr>
+  </tbody>
+</table>
+{% endblock %}
